@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: antiquewhite;
+    background: silver;
+}
+
+/* Main section */
+section {
+    border: 4px solid black;
+    background: lightslategrey;
+    border-radius: 15px;
+    padding-bottom: 25px;
+    min-height: calc(100vh - 70px);
+    justify-content: space-evenly;
+    width:100%;
+    margin: 75px auto;
+    clear: both;
+}
+
+/* Submit Button Formatting */
+.myblock {
+    width: 80%;
+    margin: 0 auto;
+}
+
+img {
+    min-height: 500px;
+}
